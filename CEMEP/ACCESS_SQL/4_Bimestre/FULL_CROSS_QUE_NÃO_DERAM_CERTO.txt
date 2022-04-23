@@ -1,0 +1,11 @@
+FULL OUTER JOIN
+
+SELECT F.Nome_Func ,C.Nome_Cargo    
+FROM Funcionários AS F
+FULL OUTER JOIN  Cargo_Funcionário AS C  ON ( C.Cod_Cargo = F.Cod_Cargo );
+
+CROSS JOIN
+
+SELECT F.Nome_Func ,C.Nome_Cargo
+FROM Cargo_Funcionário  AS C
+CROSS JOIN   Funcionários  AS F;  
