@@ -1,1 +1,0 @@
-Select Tamanho from Acai;

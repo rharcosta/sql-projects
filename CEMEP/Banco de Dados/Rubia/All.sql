@@ -1,3 +1,0 @@
-Select Fornecedor from Sorveteria;
-
-
